@@ -1,0 +1,57 @@
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 105px auto 15%;
+    width: 100vw;
+    height: 100vh;
+
+}
+header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 2px solid black;
+}
+main{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 2px solid black;
+}
+footer{
+    padding-top: 40px;
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+header img{
+    display: block;
+    width: 20%;
+    margin: auto;
+}
+#flexcontainer{
+    display: flexbox;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url("../img/dog_bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+#flexcontainer *{
+flex-grow: 1;
+flex-shrink: 0;
+flex-basis: 325px;
+height: 350px;
+border: 2px solid purple;
+padding: 10px;
+margin: 4% 2% 4%;
+background-color: #ffffffcf;
+border-radius: 10px;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+}
+
+
+
